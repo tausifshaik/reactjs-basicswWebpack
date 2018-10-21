@@ -15,6 +15,8 @@ export class Home extends React.Component{
                         {this.props.user.hobbies.map((hobby,key) => <li key={key}>{hobby}</li>)}
                     </ul>
                 </div> 
+                <br/>
+                {this.props.children}
             </div> 
               
         );

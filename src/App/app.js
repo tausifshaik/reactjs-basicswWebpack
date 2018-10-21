@@ -17,7 +17,9 @@ class App extends React.Component  {
         </div>
         <div className="row">
           <div className="col-xs-10">
-            <Home name={"alfu"} age={30} user={user}/>
+            <Home name={"alfu"} age={30} user={user}>
+              <p>  this is child prop </p>
+            </Home>
           </div>
         </div>
       </div>
